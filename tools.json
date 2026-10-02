@@ -1,772 +1,161 @@
 [
-  {
-    "name": "GitHub Copilot",
-    "description": "AI pair programmer integrated into GitHub, VS Code, and JetBrains with code completion, chat, and agent workflows.",
-    "category": "Web AI Tool",
-    "type": "Coding Assistant",
-    "website": "https://github.com/features/copilot"
-  },
-  {
-    "name": "Claude AI",
-    "description": "Anthropic's conversational AI platform with strong reasoning and coding assistance for web-based workflows.",
-    "category": "Web AI Tool",
-    "type": "General AI Assistant",
-    "website": "https://claude.ai/"
-  },
-  {
-    "name": "ChatGPT",
-    "description": "OpenAI's AI assistant for coding help, explanations, debugging, and general software development tasks.",
-    "category": "Web AI Tool",
-    "type": "General AI Assistant",
-    "website": "https://chat.openai.com/"
-  },
-  {
-    "name": "Perplexity",
-    "description": "AI search and research assistant useful for technical research, coding questions, and up-to-date web references.",
-    "category": "Web AI Tool",
-    "type": "Research AI Assistant",
-    "website": "https://www.perplexity.ai/"
-  },
-  {
-    "name": "Gemini",
-    "description": "Google’s AI assistant for coding, research, and multimodal reasoning across web workflows.",
-    "category": "Web AI Tool",
-    "type": "General AI Assistant",
-    "website": "https://gemini.google.com/"
-  },
-  {
-    "name": "v0",
-    "description": "Vercel's AI tool for generating UI components and full pages from prompts.",
-    "category": "Web AI Tool",
-    "type": "UI Generator",
-    "website": "https://v0.dev/"
-  },
-  {
-    "name": "Bolt.new",
-    "description": "Browser-based app builder that turns prompts into deployable full-stack web apps.",
-    "category": "Web AI Tool",
-    "type": "App Builder",
-    "website": "https://bolt.new/"
-  },
-  {
-    "name": "Lovable",
-    "description": "AI app builder for generating web apps and interfaces from natural-language instructions.",
-    "category": "Web AI Tool",
-    "type": "App Builder",
-    "website": "https://lovable.dev/"
-  },
-  {
-    "name": "Replit",
-    "description": "Online coding environment with AI-assisted app generation and collaborative development.",
-    "category": "Web AI Tool",
-    "type": "IDE + App Builder",
-    "website": "https://replit.com/"
-  },
-  {
-    "name": "Cursor",
-    "description": "AI-first desktop code editor for coding, debugging, refactoring, and multi-file development.",
-    "category": "Desktop AI Tool",
-    "type": "AI IDE",
-    "website": "https://cursor.com/"
-  },
-  {
-    "name": "Windsurf",
-    "description": "AI-powered desktop coding environment built around workspace-aware assistance and code generation.",
-    "category": "Desktop AI Tool",
-    "type": "AI IDE",
-    "website": "https://windsurf.com/"
-  },
-  {
-    "name": "Claude Desktop",
-    "description": "Desktop app version of Claude for coding help, code review, and productivity workflows.",
-    "category": "Desktop AI Tool",
-    "type": "General AI Assistant",
-    "website": "https://claude.ai/desktop"
-  },
-  {
-    "name": "Trae",
-    "description": "AI IDE for faster coding workflows and collaborative software development.",
-    "category": "Desktop AI Tool",
-    "type": "AI IDE",
-    "website": "https://www.trae.ai/"
-  },
-  {
-    "name": "Continue",
-    "description": "Open-source AI coding assistant that plugs into VS Code and JetBrains.",
-    "category": "Desktop AI Tool",
-    "type": "IDE Extension",
-    "website": "https://continue.dev/"
-  },
-  {
-    "name": "Codeium",
-    "description": "AI coding assistant with autocomplete and chat for supported developer workflows.",
-    "category": "Desktop AI Tool",
-    "type": "IDE Assistant",
-    "website": "https://codeium.com/"
-  },
-  {
-    "name": "Cline",
-    "description": "VS Code extension using AI for planning, editing, and automating coding tasks.",
-    "category": "Desktop AI Tool",
-    "type": "IDE Extension",
-    "website": "https://github.com/cline/cline"
-  },
-  {
-    "name": "Roo Code",
-    "description": "Open-source AI coding extension for VS Code with autonomous workflow support.",
-    "category": "Desktop AI Tool",
-    "type": "IDE Extension",
-    "website": "https://roocode.com/"
-  },
-  {
-    "name": "Supermaven",
-    "description": "Fast code completion tool with low-latency suggestions and long-context support.",
-    "category": "Desktop AI Tool",
-    "type": "Code Completion",
-    "website": "https://supermaven.com/"
-  },
-  {
-    "name": "PearAI",
-    "description": "Open-source AI-powered editor focused on coding productivity and local development.",
-    "category": "Desktop AI Tool",
-    "type": "AI Editor",
-    "website": "https://pear.ai/"
-  },
-  {
-    "name": "Aider",
-    "description": "Terminal-based AI pair programmer for local repositories with git-aware editing workflows.",
-    "category": "Desktop AI Tool",
-    "type": "Terminal Coding Assistant",
-    "website": "https://aider.chat/"
-  },
-  {
-    "name": "OpenCode",
-    "description": "Open-source terminal AI agent supporting multiple providers and coding workflows.",
-    "category": "Desktop AI Tool",
-    "type": "Coding Agent",
-    "website": "https://github.com/opencode-ai/opencode"
-  },
-  {
-    "name": "Ollama",
-    "description": "Run open-source large language models locally on your machine with a simple CLI.",
-    "category": "Local AI Tool",
-    "type": "Local LLM Runtime",
-    "website": "https://ollama.com/"
-  },
-  {
-    "name": "LM Studio",
-    "description": "Desktop app for discovering, downloading, and running local LLMs with a GUI and local API server.",
-    "category": "Local AI Tool",
-    "type": "Local LLM Runtime",
-    "website": "https://lmstudio.ai/"
-  },
-  {
-    "name": "Jan",
-    "description": "Open-source local AI desktop app for offline chat and local model execution.",
-    "category": "Local AI Tool",
-    "type": "Local LLM Runtime",
-    "website": "https://jan.ai/"
-  },
-  {
-    "name": "GPT4All",
-    "description": "Free local AI tool for running LLMs on consumer hardware without cloud dependency.",
-    "category": "Local AI Tool",
-    "type": "Local LLM Runtime",
-    "website": "https://gpt4all.io/"
-  },
-  {
-    "name": "LocalAI",
-    "description": "Open-source local OpenAI-compatible API server for running models on your own hardware.",
-    "category": "Local AI Tool",
-    "type": "Local LLM Runtime",
-    "website": "https://localai.io/"
-  },
-  {
-    "name": "llamafile",
-    "description": "Packages LLMs into single executable files for local, portable usage.",
-    "category": "Local AI Tool",
-    "type": "Local LLM Runtime",
-    "website": "https://github.com/Mozilla-Ocho/llamafile"
-  },
-  {
-    "name": "AnythingLLM",
-    "description": "Local-first AI workspace for using private models and local documents with a chat interface.",
-    "category": "Local AI Tool",
-    "type": "Local AI Workspace",
-    "website": "https://anythingllm.com/"
-  },
-  {
-    "name": "Open Interpreter",
-    "description": "Local AI tool that runs code and shell commands from natural-language instructions.",
-    "category": "Local AI Tool",
-    "type": "Local Coding Agent",
-    "website": "https://github.com/OpenInterpreter/open-interpreter"
-  },
-  {
-    "name": "GitHub Copilot for VS Code",
-    "description": "AI coding assistant embedded in VS Code for completions, chat, and inline suggestions.",
-    "category": "IDE AI Tool",
-    "type": "VS Code Extension",
-    "website": "https://github.com/features/copilot"
-  },
-  {
-    "name": "GitHub Copilot for JetBrains",
-    "description": "AI coding support integrated into JetBrains IDEs such as IntelliJ and PyCharm.",
-    "category": "IDE AI Tool",
-    "type": "JetBrains Plugin",
-    "website": "https://github.com/features/copilot"
-  },
-  {
-    "name": "Amazon Q Developer",
-    "description": "AI coding assistant integrated with IDEs and developer environments for code generation and review.",
-    "category": "IDE AI Tool",
-    "type": "IDE Assistant",
-    "website": "https://aws.amazon.com/q/developer/"
-  },
-  {
-    "name": "JetBrains AI",
-    "description": "Native AI assistant for JetBrains IDEs, covering code generation, explanations, and workflow help.",
-    "category": "IDE AI Tool",
-    "type": "JetBrains Plugin",
-    "website": "https://www.jetbrains.com/ai/"
-  },
-  {
-    "name": "Google Code Assist",
-    "description": "AI assistant for IDE workflows using Gemini and supported coding environments.",
-    "category": "IDE AI Tool",
-    "type": "IDE Assistant",
-    "website": "https://codeassist.google/"
-  },
-  {
-    "name": "Tabnine",
-    "description": "AI code completion tool integrated into popular IDEs and editor surfaces.",
-    "category": "IDE AI Tool",
-    "type": "Code Completion",
-    "website": "https://www.tabnine.com/"
-  },
-  {
-    "name": "Phind",
-    "description": "AI search and coding assistant for answers, code generation, and technical exploration.",
-    "category": "IDE AI Tool",
-    "type": "Search + Coding Assistant",
-    "website": "https://www.phind.com/"
-  },
-  {
-    "name": "Blackbox AI",
-    "description": "Coding assistant used across editor and browser workflows with code explanation and generation.",
-    "category": "IDE AI Tool",
-    "type": "Coding Assistant",
-    "website": "https://www.blackbox.ai/"
-  },
-  {
-    "name": "Claude Code",
-    "description": "Anthropic's terminal coding agent built for deep codebase-aware editing and debugging.",
-    "category": "Coding Agent",
-    "type": "Terminal Agent",
-    "website": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview"
-  },
-  {
-    "name": "OpenAI Codex CLI",
-    "description": "OpenAI's terminal coding agent with sandboxed execution and repo-aware editing.",
-    "category": "Coding Agent",
-    "type": "Terminal Agent",
-    "website": "https://openai.com/blog/openai-codex/"
-  },
-  {
-    "name": "Devin AI",
-    "description": "Autonomous software engineer capable of planning, coding, debugging, and deployment tasks.",
-    "category": "Coding Agent",
-    "type": "Autonomous Developer",
-    "website": "https://devin.ai/"
-  },
-  {
-    "name": "OpenHands",
-    "description": "Open-source AI software engineer for autonomous software development workflows.",
-    "category": "Coding Agent",
-    "type": "Autonomous Developer",
-    "website": "https://opendevin.ai/"
-  },
-  {
-    "name": "Aider",
-    "description": "AI coding agent that edits files directly in local git repositories from natural-language instructions.",
-    "category": "Coding Agent",
-    "type": "Local Coding Agent",
-    "website": "https://github.com/paul-gauthier/aider"
-  },
-  {
-    "name": "Gemini CLI",
-    "description": "Google's CLI-based coding agent powered by Gemini for code understanding and editing tasks.",
-    "category": "Coding Agent",
-    "type": "Terminal Agent",
-    "website": "https://github.com/google-gemini/gemini-cli"
-  },
-  {
-    "name": "Replit Agent",
-    "description": "AI agent that builds and iterates on full applications from natural-language prompts.",
-    "category": "Coding Agent",
-    "type": "App Building Agent",
-    "website": "https://replit.com/agent"
-  },
-  {
-    "name": "GPT Engineer",
-    "description": "AI agent focused on building software from natural-language requirements.",
-    "category": "Coding Agent",
-    "type": "App Building Agent",
-    "website": "https://github.com/AntonOsika/gpt-engineer"
-  },
-  {
-    "name": "JunieAI",
-    "description": "AI coding agent that plans, writes, tests, and refactors inside JetBrains IDEs.",
-    "category": "Coding Agent",
-    "type": "IDE Agent",
-    "website": "https://www.jetbrains.com/junieai/"
-  },
-  {
-    "name": "Fine",
-    "description": "AI dev agent that understands requirements, writes code, and iterates autonomously.",
-    "category": "Coding Agent",
-    "type": "Autonomous Developer",
-    "website": "https://fine.dev/"
-  },
-  {
-    "name": "AutoGen",
-    "description": "Multi-agent framework for building AI teams that collaborate on coding tasks.",
-    "category": "Coding Agent",
-    "type": "Multi-Agent Framework",
-    "website": "https://github.com/microsoft/autogen"
-  },
-  {
-    "name": "CrewAI",
-    "description": "Platform for orchestrating teams of AI agents for development and automation.",
-    "category": "Coding Agent",
-    "type": "Multi-Agent Framework",
-    "website": "https://www.crewai.com/"
-  },
-  {
-    "name": "SWE-agent",
-    "description": "Autonomous agent designed to resolve real GitHub issues by editing code and running tests.",
-    "category": "Coding Agent",
-    "type": "Repository Repair Agent",
-    "website": "https://github.com/princeton-nlp/SWE-agent"
-  },
-  {
-    "name": "PraisonAI",
-    "description": "Multi-agent framework with broad model support and MCP integration for development tasks.",
-    "category": "Coding Agent",
-    "type": "Multi-Agent Framework",
-    "website": "https://github.com/MervinPraison/PraisonAI"
-  },
-  {
-    "name": "Copilot Workspace",
-    "description": "GitHub's agent-powered development environment for turning issues into code changes.",
-    "category": "Coding Agent",
-    "type": "Agent Dev Environment",
-    "website": "https://githubnext.com/projects/copilot-workspace"
-  },
-  {
-    "name": "Amp",
-    "description": "Agentic coding tool built on code search infrastructure for deep repository understanding.",
-    "category": "Coding Agent",
-    "type": "Agentic Coding Tool",
-    "website": "https://ampcode.com/"
-  },
-  {
-    "name": "Qoder",
-    "description": "Agentic coding platform focused on deeper reasoning and software execution workflows.",
-    "category": "Coding Agent",
-    "type": "Agentic Coding Tool",
-    "website": "https://qoder.com/"
-  },
-  {
-    "name": "Kilo Code",
-    "description": "Open-source VS Code extension supporting many models and autonomous coding workflows.",
-    "category": "Coding Agent",
-    "type": "IDE Agent",
-    "website": "https://kilocode.ai"
-  },
-  {
-    "name": "Aide",
-    "description": "Open-source AI-native IDE built on top of VS Code with proactive agents.",
-    "category": "Coding Agent",
-    "type": "AI IDE",
-    "website": "https://aide.dev/"
-  },
-  {
-    "name": "Zed",
-    "description": "High-performance code editor with built-in AI assistance and collaborative features.",
-    "category": "Desktop AI Tool",
-    "type": "AI IDE",
-    "website": "https://zed.dev/"
-  },
-  {
-    "name": "Sourcegraph Cody",
-    "description": "AI-powered code search and code understanding assistant for large codebases.",
-    "category": "Code Search",
-    "type": "Code Search + AI Assistant",
-    "website": "https://about.sourcegraph.com/cody"
-  },
-  {
-    "name": "Pieces.app",
-    "description": "AI-powered code snippet management and search platform for engineering workflows.",
-    "category": "Code Search",
-    "type": "Snippet Management",
-    "website": "https://pieces.app/"
-  },
-  {
-    "name": "CodeRabbit",
-    "description": "AI-driven contextual pull request review tool with actionable code feedback.",
-    "category": "Code Review",
-    "type": "PR Review Assistant",
-    "website": "https://coderabbit.ai/"
-  },
-  {
-    "name": "Sourcery",
-    "description": "AI code reviewer and refactoring assistant supporting multiple languages.",
-    "category": "Code Review",
-    "type": "Refactoring AI",
-    "website": "https://sourcery.ai/"
-  },
-  {
-    "name": "Qodo",
-    "description": "Code review and test generation platform with automatic quality checks.",
-    "category": "Code Review",
-    "type": "Code Review + Testing",
-    "website": "https://www.qodo.ai/"
-  },
-  {
-    "name": "Sweep",
-    "description": "AI agent for automating pull request reviews and fixes.",
-    "category": "Code Review",
-    "type": "PR Fixing Agent",
-    "website": "https://github.com/sweepai/sweep"
-  },
-  {
-    "name": "Greptile",
-    "description": "AI bot for in-depth code review and repository analysis.",
-    "category": "Code Review",
-    "type": "PR Review Assistant",
-    "website": "https://greptile.com/code-review-bot"
-  },
-  {
-    "name": "Semgrep",
-    "description": "Static analysis tool for finding bugs and security issues in codebases.",
-    "category": "Code Review",
-    "type": "Static Analysis",
-    "website": "https://semgrep.dev/"
-  },
-  {
-    "name": "CodeQL",
-    "description": "GitHub semantic code analysis platform for security and quality analysis.",
-    "category": "Code Review",
-    "type": "Semantic Analysis",
-    "website": "https://codeql.github.com/"
-  },
-  {
-    "name": "Snyk",
-    "description": "Security-focused code analysis platform with dependency and vulnerability scanning.",
-    "category": "Code Review",
-    "type": "Security Analysis",
-    "website": "https://snyk.io/"
-  },
-  {
-    "name": "Playwright",
-    "description": "End-to-end testing framework often used together with AI-powered test generation.",
-    "category": "Testing and QA",
-    "type": "Test Automation",
-    "website": "https://playwright.dev/"
-  },
-  {
-    "name": "Testim",
-    "description": "AI end-to-end testing platform with self-healing locators.",
-    "category": "Testing and QA",
-    "type": "Test Automation",
-    "website": "https://www.testim.io/"
-  },
-  {
-    "name": "TestRigor",
-    "description": "Plain-English test automation platform with self-healing capabilities.",
-    "category": "Testing and QA",
-    "type": "No-Code Test Automation",
-    "website": "https://testrigor.com/"
-  },
-  {
-    "name": "Mabl",
-    "description": "AI-native testing platform with auto-healing and UI verification.",
-    "category": "Testing and QA",
-    "type": "Test Automation",
-    "website": "https://www.mabl.com/"
-  },
-  {
-    "name": "Applitools",
-    "description": "Visual AI testing platform for cross-browser and UI regression checks.",
-    "category": "Testing and QA",
-    "type": "Visual Testing",
-    "website": "https://applitools.com/"
-  },
-  {
-    "name": "Meticulous",
-    "description": "AI-driven visual and functional testing platform.",
-    "category": "Testing and QA",
-    "type": "Visual Testing",
-    "website": "https://www.meticulous.ai/"
-  },
-  {
-    "name": "Mintlify",
-    "description": "AI-powered documentation platform that auto-generates and maintains docs from code.",
-    "category": "Documentation",
-    "type": "Docs Generator",
-    "website": "https://mintlify.com/"
-  },
-  {
-    "name": "GitBook AI",
-    "description": "AI-enhanced documentation tool with intelligent writing suggestions.",
-    "category": "Documentation",
-    "type": "Docs Generator",
-    "website": "https://gitbook.com/ai"
-  },
-  {
-    "name": "README-AI",
-    "description": "AI tool for generating professional README files from project information.",
-    "category": "Documentation",
-    "type": "README Generator",
-    "website": "https://github.com/eli64s/readme-ai"
-  },
-  {
-    "name": "DocuWriter.ai",
-    "description": "AI documentation generator for codebases and APIs.",
-    "category": "Documentation",
-    "type": "Docs Generator",
-    "website": "https://www.docuwriter.ai/"
-  },
-  {
-    "name": "DiagramGPT",
-    "description": "Diagram generation tool that turns code and text descriptions into visuals.",
-    "category": "Documentation",
-    "type": "Diagram Generator",
-    "website": "https://www.eraser.io/diagramgpt"
-  },
-  {
-    "name": "LangChain",
-    "description": "Framework for building LLM-powered applications, chains, agents, and retrieval flows.",
-    "category": "AI Framework",
-    "type": "LLM Framework",
-    "website": "https://www.langchain.com/"
-  },
-  {
-    "name": "LlamaIndex",
-    "description": "Data framework for connecting LLMs to external data with indexing and retrieval.",
-    "category": "AI Framework",
-    "type": "RAG Framework",
-    "website": "https://www.llamaindex.ai/"
-  },
-  {
-    "name": "Vercel AI SDK",
-    "description": "TypeScript toolkit for streaming AI features and tool calling in apps.",
-    "category": "AI Framework",
-    "type": "SDK",
-    "website": "https://sdk.vercel.ai/"
-  },
-  {
-    "name": "Semantic Kernel",
-    "description": "Microsoft SDK for integrating LLMs into C#, Python, and Java applications.",
-    "category": "AI Framework",
-    "type": "SDK",
-    "website": "https://github.com/microsoft/semantic-kernel"
-  },
-  {
-    "name": "Haystack",
-    "description": "Open-source framework for production-ready LLM applications and retrieval pipelines.",
-    "category": "AI Framework",
-    "type": "RAG Framework",
-    "website": "https://haystack.deepset.ai/"
-  },
-  {
-    "name": "LiteLLM",
-    "description": "Unified API proxy for many LLM providers with routing and spend tracking.",
-    "category": "AI Framework",
-    "type": "Model Gateway",
-    "website": "https://github.com/BerriAI/litellm"
-  },
-  {
-    "name": "OpenRouter",
-    "description": "Unified API gateway for accessing models from multiple providers.",
-    "category": "AI Framework",
-    "type": "Model Gateway",
-    "website": "https://openrouter.ai/"
-  },
-  {
-    "name": "Promptfoo",
-    "description": "Tool for evaluating, testing, and red-teaming LLM prompts and applications.",
-    "category": "AI Framework",
-    "type": "Evaluation Tool",
-    "website": "https://github.com/promptfoo/promptfoo"
-  },
-  {
-    "name": "MCP Server Finder",
-    "description": "Directory for discovering and browsing Model Context Protocol servers.",
-    "category": "MCP Directory",
-    "type": "Directory",
-    "website": "https://www.mcpserverfinder.com/servers"
-  },
-  {
-    "name": "PulseMCP",
-    "description": "Repository and directory of MCP servers updated on a frequent cadence.",
-    "category": "MCP Directory",
-    "type": "Directory",
-    "website": "https://www.pulsemcp.com/servers"
-  },
-  {
-    "name": "MCP.so",
-    "description": "Platform for discovering and sharing MCP server resources and community content.",
-    "category": "MCP Directory",
-    "type": "Directory",
-    "website": "https://mcp.so/"
-  },
-  {
-    "name": "Cursor MCP Directory",
-    "description": "Curated list of MCP servers for Cursor-focused workflows.",
-    "category": "MCP Directory",
-    "type": "Directory",
-    "website": "https://cursor.directory/mcp"
-  },
-  {
-    "name": "VS Code MCP Directory",
-    "description": "Official directory of MCP servers and integrations for VS Code.",
-    "category": "MCP Directory",
-    "type": "Directory",
-    "website": "https://code.visualstudio.com/mcp"
-  },
-  {
-    "name": "Claude MCP Servers",
-    "description": "Curated set of Claude-compatible MCP servers and integrations.",
-    "category": "MCP Directory",
-    "type": "Directory",
-    "website": "https://www.claudemcp.com/servers"
-  },
-  {
-    "name": "Context7",
-    "description": "MCP server that supplies up-to-date library documentation to LLMs and AI editors.",
-    "category": "MCP Tool",
-    "type": "Documentation MCP",
-    "website": "https://context7.com/"
-  },
-  {
-    "name": "MCPServers.Net",
-    "description": "Directory and navigation hub for exploring MCP servers and related tutorials.",
-    "category": "MCP Directory",
-    "type": "Directory",
-    "website": "https://mcpservers.net/"
-  },
-  {
-    "name": "MCP Market",
-    "description": "Marketplace for discovering MCP tools and services.",
-    "category": "MCP Directory",
-    "type": "Marketplace",
-    "website": "https://mcpmarket.com/"
-  },
-  {
-    "name": "Ollama",
-    "description": "Run local open-source LLMs with a simple CLI for offline and privacy-first coding tasks.",
-    "category": "Local AI Tool",
-    "type": "Local LLM Runtime",
-    "website": "https://ollama.com/"
-  },
-  {
-    "name": "Warp",
-    "description": "AI-enhanced terminal with smart command and workflow suggestions for developers.",
-    "category": "CLI Tool",
-    "type": "Terminal AI Assistant",
-    "website": "https://www.warp.dev/"
-  },
-  {
-    "name": "GitHub Copilot CLI",
-    "description": "GitHub's AI assistant for command-line workflows with context-aware suggestions.",
-    "category": "CLI Tool",
-    "type": "Terminal AI Assistant",
-    "website": "https://github.com/cli/cli/tree/trunk/pkg/cmd/copilot"
-  },
-  {
-    "name": "ShellGPT",
-    "description": "AI tool for generating shell commands and system administration scripts from prompts.",
-    "category": "CLI Tool",
-    "type": "Shell Assistant",
-    "website": "https://github.com/TheR1D/shell_gpt"
-  },
-  {
-    "name": "AICommits",
-    "description": "AI-powered Git commit message generator for meaningful and descriptive commit logs.",
-    "category": "CLI Tool",
-    "type": "Git Assistant",
-    "website": "https://github.com/Nutlope/aicommits"
-  },
-  {
-    "name": "Amazon Q Developer CLI",
-    "description": "AI CLI for AWS-related coding, scripting, and infrastructure tasks.",
-    "category": "CLI Tool",
-    "type": "Developer CLI",
-    "website": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html"
-  },
-  {
-    "name": "Mentat",
-    "description": "AI coding assistant for command-line development and iterative coding tasks.",
-    "category": "CLI Tool",
-    "type": "Terminal Coding Assistant",
-    "website": "https://mentat.ai/"
-  },
-  {
-    "name": "TmuxAI",
-    "description": "AI assistant for automating terminal and tmux-based developer workflows.",
-    "category": "CLI Tool",
-    "type": "Terminal AI Assistant",
-    "website": "https://tmuxai.dev/"
-  },
-  {
-    "name": "Bolt.diy",
-    "description": "Open-source app builder that supports local or cloud LLMs in browser-based workflows.",
-    "category": "Web AI Tool",
-    "type": "App Builder",
-    "website": "https://github.com/stackblitz-labs/bolt.diy"
-  },
-  {
-    "name": "Stitch",
-    "description": "Google Labs tool for generating multi-screen UI designs and frontend code from prompts or images.",
-    "category": "UI Generator",
-    "type": "Design-to-Code",
-    "website": "https://stitch.withgoogle.com/"
-  },
-  {
-    "name": "Magic Patterns",
-    "description": "AI platform for creating reusable UI components and design systems.",
-    "category": "UI Generator",
-    "type": "Design-to-Code",
-    "website": "https://www.magicpatterns.com/"
-  },
-  {
-    "name": "Figma AI",
-    "description": "Native AI features in Figma for design automation and design-to-code workflows.",
-    "category": "UI Generator",
-    "type": "Design Tool",
-    "website": "https://figma.com/ai"
-  },
-  {
-    "name": "Uizard",
-    "description": "Convert hand-drawn mockups, screenshots, or text into interactive prototypes.",
-    "category": "UI Generator",
-    "type": "Prototype Generator",
-    "website": "https://uizard.io/"
-  },
-  {
-    "name": "Kombai",
-    "description": "Generates production-ready UI code from design files and interfaces.",
-    "category": "UI Generator",
-    "type": "Design-to-Code",
-    "website": "https://kombai.com/"
-  },
-  {
-    "name": "TeleportHQ",
-    "description": "Generate production-ready code from visual designs and interactive prototypes.",
-    "category": "UI Generator",
-    "type": "Design-to-Code",
-    "website": "https://teleporthq.io/"
-  }
+  {"name":"GitHub Copilot","description":"AI pair programmer integrated into GitHub, VS Code, and JetBrains with code completion, chat, and agent workflows.","category":"Web AI Tool","type":"Coding Assistant","website":"https://github.com/features/copilot"},
+  {"name":"Claude AI","description":"Anthropic's conversational AI platform with strong reasoning and coding assistance for web-based workflows.","category":"Web AI Tool","type":"General AI Assistant","website":"https://claude.ai/"},
+  {"name":"ChatGPT","description":"OpenAI's AI assistant for coding help, explanations, debugging, and general software development tasks.","category":"Web AI Tool","type":"General AI Assistant","website":"https://chat.openai.com/"},
+  {"name":"Perplexity","description":"AI search and research assistant useful for technical research, coding questions, and up-to-date web references.","category":"Web AI Tool","type":"Research AI Assistant","website":"https://www.perplexity.ai/"},
+  {"name":"Gemini","description":"Google’s AI assistant for coding, research, and multimodal reasoning across web workflows.","category":"Web AI Tool","type":"General AI Assistant","website":"https://gemini.google.com/"},
+  {"name":"v0","description":"Vercel's AI tool for generating UI components and full pages from prompts.","category":"Web AI Tool","type":"UI Generator","website":"https://v0.dev/"},
+  {"name":"Bolt.new","description":"Browser-based app builder that turns prompts into deployable full-stack web apps.","category":"Web AI Tool","type":"App Builder","website":"https://bolt.new/"},
+  {"name":"Lovable","description":"AI app builder for generating web apps and interfaces from natural-language instructions.","category":"Web AI Tool","type":"App Builder","website":"https://lovable.dev/"},
+  {"name":"Replit","description":"Online coding environment with AI-assisted app generation and collaborative development.","category":"Web AI Tool","type":"IDE + App Builder","website":"https://replit.com/"},
+  {"name":"Cursor","description":"AI-first desktop code editor for coding, debugging, refactoring, and multi-file development.","category":"Desktop AI Tool","type":"AI IDE","website":"https://cursor.com/"},
+  {"name":"Windsurf","description":"AI-powered desktop coding environment built around workspace-aware assistance and code generation.","category":"Desktop AI Tool","type":"AI IDE","website":"https://windsurf.com/"},
+  {"name":"Claude Desktop","description":"Desktop app version of Claude for coding help, code review, and productivity workflows.","category":"Desktop AI Tool","type":"General AI Assistant","website":"https://claude.ai/desktop"},
+  {"name":"Trae","description":"AI IDE for faster coding workflows and collaborative software development.","category":"Desktop AI Tool","type":"AI IDE","website":"https://www.trae.ai/"},
+  {"name":"Continue","description":"Open-source AI coding assistant that plugs into VS Code and JetBrains.","category":"Desktop AI Tool","type":"IDE Extension","website":"https://continue.dev/"},
+  {"name":"Codeium","description":"AI coding assistant with autocomplete and chat for supported developer workflows.","category":"Desktop AI Tool","type":"IDE Assistant","website":"https://codeium.com/"},
+  {"name":"Cline","description":"VS Code extension using AI for planning, editing, and automating coding tasks.","category":"Desktop AI Tool","type":"IDE Extension","website":"https://github.com/cline/cline"},
+  {"name":"Roo Code","description":"Open-source AI coding extension for VS Code with autonomous workflow support.","category":"Desktop AI Tool","type":"IDE Extension","website":"https://roocode.com/"},
+  {"name":"Supermaven","description":"Fast code completion tool with low-latency suggestions and long-context support.","category":"Desktop AI Tool","type":"Code Completion","website":"https://supermaven.com/"},
+  {"name":"PearAI","description":"Open-source AI-powered editor focused on coding productivity and local development.","category":"Desktop AI Tool","type":"AI Editor","website":"https://pear.ai/"},
+  {"name":"Aider","description":"Terminal-based AI pair programmer for local repositories with git-aware editing workflows.","category":"Desktop AI Tool","type":"Terminal Coding Assistant","website":"https://aider.chat/"},
+  {"name":"OpenCode","description":"Open-source terminal AI agent supporting multiple providers and coding workflows.","category":"Desktop AI Tool","type":"Coding Agent","website":"https://github.com/opencode-ai/opencode"},
+  {"name":"Zed","description":"High-performance code editor with built-in AI assistance and collaborative features.","category":"Desktop AI Tool","type":"AI IDE","website":"https://zed.dev/"},
+  {"name":"Ollama","description":"Run open-source large language models locally on your machine with a simple CLI.","category":"Local AI Tool","type":"Local LLM Runtime","website":"https://ollama.com/"},
+  {"name":"LM Studio","description":"Desktop app for discovering, downloading, and running local LLMs with a GUI and local API server.","category":"Local AI Tool","type":"Local LLM Runtime","website":"https://lmstudio.ai/"},
+  {"name":"Jan","description":"Open-source local AI desktop app for offline chat and local model execution.","category":"Local AI Tool","type":"Local LLM Runtime","website":"https://jan.ai/"},
+  {"name":"GPT4All","description":"Free local AI tool for running LLMs on consumer hardware without cloud dependency.","category":"Local AI Tool","type":"Local LLM Runtime","website":"https://gpt4all.io/"},
+  {"name":"LocalAI","description":"Open-source local OpenAI-compatible API server for running models on your own hardware.","category":"Local AI Tool","type":"Local LLM Runtime","website":"https://localai.io/"},
+  {"name":"llamafile","description":"Packages LLMs into single executable files for local, portable usage.","category":"Local AI Tool","type":"Local LLM Runtime","website":"https://github.com/Mozilla-Ocho/llamafile"},
+  {"name":"AnythingLLM","description":"Local-first AI workspace for using private models and local documents with a chat interface.","category":"Local AI Tool","type":"Local AI Workspace","website":"https://anythingllm.com/"},
+  {"name":"Open Interpreter","description":"Local AI tool that runs code and shell commands from natural-language instructions.","category":"Local AI Tool","type":"Local Coding Agent","website":"https://github.com/OpenInterpreter/open-interpreter"},
+  {"name":"DeepSeek Coder","description":"High-performance open-source coding model popular in local and API-based development workflows.","category":"Local AI Tool","type":"Local Coding Model","website":"https://github.com/deepseek-ai/DeepSeek-Coder-V2"},
+  {"name":"Qwen2.5-Coder","description":"Alibaba's open-source coding model widely used in self-hosted and local AI coding setups.","category":"Local AI Tool","type":"Local Coding Model","website":"https://github.com/QwenLM/Qwen2.5-Coder"},
+  {"name":"GitHub Copilot for VS Code","description":"AI coding assistant embedded in VS Code for completions, chat, and inline suggestions.","category":"IDE AI Tool","type":"VS Code Extension","website":"https://github.com/features/copilot"},
+  {"name":"GitHub Copilot for JetBrains","description":"AI coding support integrated into JetBrains IDEs such as IntelliJ and PyCharm.","category":"IDE AI Tool","type":"JetBrains Plugin","website":"https://github.com/features/copilot"},
+  {"name":"Amazon Q Developer","description":"AI coding assistant integrated with IDEs and developer environments for code generation and review.","category":"IDE AI Tool","type":"IDE Assistant","website":"https://aws.amazon.com/q/developer/"},
+  {"name":"JetBrains AI","description":"Native AI assistant for JetBrains IDEs, covering code generation, explanations, and workflow help.","category":"IDE AI Tool","type":"JetBrains Plugin","website":"https://www.jetbrains.com/ai/"},
+  {"name":"Google Code Assist","description":"AI assistant for IDE workflows using Gemini and supported coding environments.","category":"IDE AI Tool","type":"IDE Assistant","website":"https://codeassist.google/"},
+  {"name":"Tabnine","description":"AI code completion tool integrated into popular IDEs and editor surfaces.","category":"IDE AI Tool","type":"Code Completion","website":"https://www.tabnine.com/"},
+  {"name":"Phind","description":"AI search and coding assistant for answers, code generation, and technical exploration.","category":"IDE AI Tool","type":"Search + Coding Assistant","website":"https://www.phind.com/"},
+  {"name":"Blackbox AI","description":"Coding assistant used across editor and browser workflows with code explanation and generation.","category":"IDE AI Tool","type":"Coding Assistant","website":"https://www.blackbox.ai/"},
+  {"name":"PearAI","description":"Open-source AI-powered code editor focused on coding workflows and local development.","category":"IDE AI Tool","type":"AI Editor","website":"https://pear.ai/"},
+  {"name":"Claude Code","description":"Anthropic's terminal coding agent built for deep codebase-aware editing and debugging.","category":"Coding Agent","type":"Terminal Agent","website":"https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview"},
+  {"name":"OpenAI Codex CLI","description":"OpenAI's terminal coding agent with sandboxed execution and repo-aware editing.","category":"Coding Agent","type":"Terminal Agent","website":"https://openai.com/blog/openai-codex/"},
+  {"name":"Devin AI","description":"Autonomous software engineer capable of planning, coding, debugging, and deployment tasks.","category":"Coding Agent","type":"Autonomous Developer","website":"https://devin.ai/"},
+  {"name":"OpenHands","description":"Open-source AI software engineer for autonomous software development workflows.","category":"Coding Agent","type":"Autonomous Developer","website":"https://opendevin.ai/"},
+  {"name":"Gemini CLI","description":"Google's CLI-based coding agent powered by Gemini for code understanding and editing tasks.","category":"Coding Agent","type":"Terminal Agent","website":"https://github.com/google-gemini/gemini-cli"},
+  {"name":"Replit Agent","description":"AI agent that builds and iterates on full applications from natural-language prompts.","category":"Coding Agent","type":"App Building Agent","website":"https://replit.com/agent"},
+  {"name":"GPT Engineer","description":"AI agent focused on building software from natural-language requirements.","category":"Coding Agent","type":"App Building Agent","website":"https://github.com/AntonOsika/gpt-engineer"},
+  {"name":"JunieAI","description":"AI coding agent that plans, writes, tests, and refactors inside JetBrains IDEs.","category":"Coding Agent","type":"IDE Agent","website":"https://www.jetbrains.com/junieai/"},
+  {"name":"Fine","description":"AI dev agent that understands requirements, writes code, and iterates autonomously.","category":"Coding Agent","type":"Autonomous Developer","website":"https://fine.dev/"},
+  {"name":"AutoGen","description":"Multi-agent framework for building AI teams that collaborate on coding tasks.","category":"Coding Agent","type":"Multi-Agent Framework","website":"https://github.com/microsoft/autogen"},
+  {"name":"CrewAI","description":"Platform for orchestrating teams of AI agents for development and automation.","category":"Coding Agent","type":"Multi-Agent Framework","website":"https://www.crewai.com/"},
+  {"name":"SWE-agent","description":"Autonomous agent designed to resolve real GitHub issues by editing code and running tests.","category":"Coding Agent","type":"Repository Repair Agent","website":"https://github.com/princeton-nlp/SWE-agent"},
+  {"name":"PraisonAI","description":"Multi-agent framework with broad model support and MCP integration for development tasks.","category":"Coding Agent","type":"Multi-Agent Framework","website":"https://github.com/MervinPraison/PraisonAI"},
+  {"name":"Copilot Workspace","description":"GitHub's agent-powered development environment for turning issues into code changes.","category":"Coding Agent","type":"Agent Dev Environment","website":"https://githubnext.com/projects/copilot-workspace"},
+  {"name":"Amp","description":"Agentic coding tool built on code search infrastructure for deep repository understanding.","category":"Coding Agent","type":"Agentic Coding Tool","website":"https://ampcode.com/"},
+  {"name":"Qoder","description":"Agentic coding platform focused on deeper reasoning and software execution workflows.","category":"Coding Agent","type":"Agentic Coding Tool","website":"https://qoder.com/"},
+  {"name":"Kilo Code","description":"Open-source VS Code extension supporting many models and autonomous coding workflows.","category":"Coding Agent","type":"IDE Agent","website":"https://kilocode.ai"},
+  {"name":"Aide","description":"Open-source AI-native IDE built on top of VS Code with proactive agents.","category":"Coding Agent","type":"AI IDE","website":"https://aide.dev/"},
+  {"name":"Codename Goose","description":"Desktop and CLI agent for automating tasks with LLMs and extensions.","category":"Coding Agent","type":"Desktop + CLI Agent","website":"https://github.com/block/goose"},
+  {"name":"Smol Developer","description":"Lightweight AI coding agent for rapid prototyping and development workflows.","category":"Coding Agent","type":"Rapid Prototyping Agent","website":"https://github.com/smol-ai/developer"},
+  {"name":"Rovo Dev","description":"Atlassian's terminal coding agent for issue-driven development and repository work.","category":"Coding Agent","type":"Terminal Agent","website":"https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface"},
+  {"name":"OpenCode Mobile","description":"Android client for the OpenCode coding agent that runs sessions from mobile devices.","category":"Coding Agent","type":"Mobile Agent Client","website":"https://github.com/dzianisv/opencode-mobile"},
+  {"name":"Browy","description":"Open-source AI agent for Chrome that drives real browser tabs through chat and DevTools.","category":"Coding Agent","type":"Browser Agent","website":"https://github.com/BrowyHQ/browy"},
+  {"name":"Maestro","description":"Desktop command center for running multiple AI coding agents in parallel.","category":"Coding Agent","type":"Multi-Agent Orchestrator","website":"https://github.com/RunMaestro/Maestro"},
+  {"name":"Orca","description":"Open-source IDE for orchestrating multiple AI coding agents side by side.","category":"Coding Agent","type":"Multi-Agent Orchestrator","website":"https://onorca.dev"},
+  {"name":"Sourcegraph Cody","description":"AI-powered code search and code understanding assistant for large codebases.","category":"Code Search","type":"Code Search + AI Assistant","website":"https://about.sourcegraph.com/cody"},
+  {"name":"Pieces.app","description":"AI-powered code snippet management and search platform for engineering workflows.","category":"Code Search","type":"Snippet Management","website":"https://pieces.app/"},
+  {"name":"Reflex","description":"Local-first full-text code search engine with MCP server support for AI coding agents.","category":"Code Search","type":"Code Search Engine","website":"https://github.com/reflex-search/reflex"},
+  {"name":"CocoIndex Code","description":"AST and tree-sitter code search MCP server for compact, relevant code snippets.","category":"Code Search","type":"Code Search Server","website":"https://github.com/cocoindex-io/cocoindex-code"},
+  {"name":"CodeRabbit","description":"AI-driven contextual pull request review tool with actionable code feedback.","category":"Code Review","type":"PR Review Assistant","website":"https://coderabbit.ai/"},
+  {"name":"Sourcery","description":"AI code reviewer and refactoring assistant supporting multiple languages.","category":"Code Review","type":"Refactoring AI","website":"https://sourcery.ai/"},
+  {"name":"Qodo","description":"Code review and test generation platform with automatic quality checks.","category":"Code Review","type":"Code Review + Testing","website":"https://www.qodo.ai/"},
+  {"name":"Sweep","description":"AI agent for automating pull request reviews and fixes.","category":"Code Review","type":"PR Fixing Agent","website":"https://github.com/sweepai/sweep"},
+  {"name":"Greptile","description":"AI bot for in-depth code review and repository analysis.","category":"Code Review","type":"PR Review Assistant","website":"https://greptile.com/code-review-bot"},
+  {"name":"Semgrep","description":"Static analysis tool for finding bugs and security issues in codebases.","category":"Code Review","type":"Static Analysis","website":"https://semgrep.dev/"},
+  {"name":"CodeQL","description":"GitHub semantic code analysis platform for security and quality analysis.","category":"Code Review","type":"Semantic Analysis","website":"https://codeql.github.com/"},
+  {"name":"Snyk","description":"Security-focused code analysis platform with dependency and vulnerability scanning.","category":"Code Review","type":"Security Analysis","website":"https://snyk.io/"},
+  {"name":"Pixee","description":"AI bot for security-focused pull request reviews and automatic remediation.","category":"Code Review","type":"Security Review Agent","website":"https://pixee.ai/"},
+  {"name":"Qodo PR Agent","description":"Open-source AI agent for pull request reviews with actionable insights.","category":"Code Review","type":"PR Review Agent","website":"https://github.com/qodo-ai/pr-agent"},
+  {"name":"Playwright","description":"End-to-end testing framework often used together with AI-powered test generation.","category":"Testing and QA","type":"Test Automation","website":"https://playwright.dev/"},
+  {"name":"Testim","description":"AI end-to-end testing platform with self-healing locators.","category":"Testing and QA","type":"Test Automation","website":"https://www.testim.io/"},
+  {"name":"TestRigor","description":"Plain-English test automation platform with self-healing capabilities.","category":"Testing and QA","type":"No-Code Test Automation","website":"https://testrigor.com/"},
+  {"name":"Mabl","description":"AI-native testing platform with auto-healing and UI verification.","category":"Testing and QA","type":"Test Automation","website":"https://www.mabl.com/"},
+  {"name":"Applitools","description":"Visual AI testing platform for cross-browser and UI regression checks.","category":"Testing and QA","type":"Visual Testing","website":"https://applitools.com/"},
+  {"name":"Meticulous","description":"AI-driven visual and functional testing platform.","category":"Testing and QA","type":"Visual Testing","website":"https://www.meticulous.ai/"},
+  {"name":"Checksum AI","description":"AI-driven software testing and validation platform for regression and QA workflows.","category":"Testing and QA","type":"AI QA Platform","website":"https://checksum.ai"},
+  {"name":"KushoAI","description":"AI-driven API testing tool for validation and workflow automation.","category":"Testing and QA","type":"API Testing","website":"https://kusho.ai/"},
+  {"name":"Katalon Studio","description":"Test automation platform with AI-enabled productivity features.","category":"Testing and QA","type":"Test Automation","website":"https://katalon.com/"},
+  {"name":"Testsigma","description":"AI-powered test automation with natural-language test creation.","category":"Testing and QA","type":"Test Automation","website":"https://testsigma.com/"},
+  {"name":"Mintlify","description":"AI-powered documentation platform that auto-generates and maintains docs from code.","category":"Documentation","type":"Docs Generator","website":"https://mintlify.com/"},
+  {"name":"GitBook AI","description":"AI-enhanced documentation tool with intelligent writing suggestions.","category":"Documentation","type":"Docs Generator","website":"https://gitbook.com/ai"},
+  {"name":"README-AI","description":"AI tool for generating professional README files from project information.","category":"Documentation","type":"README Generator","website":"https://github.com/eli64s/readme-ai"},
+  {"name":"DocuWriter.ai","description":"AI documentation generator for codebases and APIs.","category":"Documentation","type":"Docs Generator","website":"https://www.docuwriter.ai/"},
+  {"name":"DiagramGPT","description":"Diagram generation tool that turns code and text descriptions into visuals.","category":"Documentation","type":"Diagram Generator","website":"https://www.eraser.io/diagramgpt"},
+  {"name":"LangChain","description":"Framework for building LLM-powered applications, chains, agents, and retrieval flows.","category":"AI Framework","type":"LLM Framework","website":"https://www.langchain.com/"},
+  {"name":"LlamaIndex","description":"Data framework for connecting LLMs to external data with indexing and retrieval.","category":"AI Framework","type":"RAG Framework","website":"https://www.llamaindex.ai/"},
+  {"name":"Vercel AI SDK","description":"TypeScript toolkit for streaming AI features and tool calling in apps.","category":"AI Framework","type":"SDK","website":"https://sdk.vercel.ai/"},
+  {"name":"Semantic Kernel","description":"Microsoft SDK for integrating LLMs into C#, Python, and Java applications.","category":"AI Framework","type":"SDK","website":"https://github.com/microsoft/semantic-kernel"},
+  {"name":"Haystack","description":"Open-source framework for production-ready LLM applications and retrieval pipelines.","category":"AI Framework","type":"RAG Framework","website":"https://haystack.deepset.ai/"},
+  {"name":"LiteLLM","description":"Unified API proxy for many LLM providers with routing and spend tracking.","category":"AI Framework","type":"Model Gateway","website":"https://github.com/BerriAI/litellm"},
+  {"name":"OpenRouter","description":"Unified API gateway for accessing models from multiple providers.","category":"AI Framework","type":"Model Gateway","website":"https://openrouter.ai/"},
+  {"name":"Promptfoo","description":"Tool for evaluating, testing, and red-teaming LLM prompts and applications.","category":"AI Framework","type":"Evaluation Tool","website":"https://github.com/promptfoo/promptfoo"},
+  {"name":"MCP Server Finder","description":"Directory for discovering and browsing Model Context Protocol servers.","category":"MCP Directory","type":"Directory","website":"https://www.mcpserverfinder.com/servers"},
+  {"name":"PulseMCP","description":"Repository and directory of MCP servers updated on a frequent cadence.","category":"MCP Directory","type":"Directory","website":"https://www.pulsemcp.com/servers"},
+  {"name":"MCP.so","description":"Platform for discovering and sharing MCP server resources and community content.","category":"MCP Directory","type":"Directory","website":"https://mcp.so/"},
+  {"name":"Cursor MCP Directory","description":"Curated list of MCP servers for Cursor-focused workflows.","category":"MCP Directory","type":"Directory","website":"https://cursor.directory/mcp"},
+  {"name":"VS Code MCP Directory","description":"Official directory of MCP servers and integrations for VS Code.","category":"MCP Directory","type":"Directory","website":"https://code.visualstudio.com/mcp"},
+  {"name":"Claude MCP Servers","description":"Curated set of Claude-compatible MCP servers and integrations.","category":"MCP Directory","type":"Directory","website":"https://www.claudemcp.com/servers"},
+  {"name":"Context7","description":"MCP server that supplies up-to-date library documentation to LLMs and AI editors.","category":"MCP Tool","type":"Documentation MCP","website":"https://context7.com/"},
+  {"name":"MCPServers.Net","description":"Directory and navigation hub for exploring MCP servers and related tutorials.","category":"MCP Directory","type":"Directory","website":"https://mcpservers.net/"},
+  {"name":"MCP Market","description":"Marketplace for discovering MCP tools and services.","category":"MCP Directory","type":"Marketplace","website":"https://mcpmarket.com/"},
+  {"name":"Raycast AI","description":"AI-powered productivity launcher with coding capabilities and workflow automation.","category":"Developer Productivity","type":"Productivity Tool","website":"https://raycast.com/ai"},
+  {"name":"Warp AI","description":"AI-enhanced terminal with intelligent command suggestions and workflow help.","category":"Developer Productivity","type":"Terminal AI","website":"https://warp.dev/ai"},
+  {"name":"Task Master","description":"AI-driven task management for development workflows designed around coding agents.","category":"Developer Productivity","type":"Task Management","website":"https://github.com/eyaltoledano/claude-task-master"},
+  {"name":"SpecStory","description":"Tool for summarizing and sharing AI chat context across coding workflows.","category":"Developer Productivity","type":"Context Sharing","website":"https://specstory.com/"},
+  {"name":"Git AI","description":"Git extension that tracks AI-generated code and the prompts behind each change.","category":"Developer Productivity","type":"Git AI Tool","website":"https://github.com/acunniffe/git-ai"},
+  {"name":"CodeCosts","description":"Calculator for comparing pricing across AI coding tools and models.","category":"Developer Productivity","type":"Cost Comparison","website":"https://codecosts.pages.dev/"},
+  {"name":"MemClaw","description":"Persistent project memory for AI coding agents with reviewable web dashboards.","category":"Developer Productivity","type":"Memory Tool","website":"https://memclaw.me"},
+  {"name":"AIPM","description":"Registry and CLI for publishing, versioning, and installing reusable AI skills and agent assets.","category":"Developer Productivity","type":"Skills Registry","website":"https://www.aipm-registry.com/"},
+  {"name":"CostGoat","description":"Privacy-first menubar app for tracking AI agent quotas and model costs.","category":"Developer Productivity","type":"Usage Tracking","website":"https://costgoat.com"},
+  {"name":"ControlKeel","description":"Governance and control plane for AI coding agents with approval and budget checks.","category":"Developer Productivity","type":"Governance Tool","website":"https://github.com/aryaminus/controlkeel"},
+  {"name":"Sourcegraph Cody","description":"AI code search and understanding assistant for large repository workflows.","category":"Developer Productivity","type":"Code Intelligence","website":"https://about.sourcegraph.com/cody"},
+  {"name":"Datadog","description":"Monitoring and observability platform with AI-powered insights.","category":"DevOps and Infrastructure","type":"Observability","website":"https://www.datadoghq.com/"},
+  {"name":"New Relic","description":"Observability and AIOps platform for application and infrastructure monitoring.","category":"DevOps and Infrastructure","type":"Observability","website":"https://newrelic.com/"},
+  {"name":"PagerDuty","description":"AI-powered incident management and response automation platform.","category":"DevOps and Infrastructure","type":"Incident Response","website":"https://www.pagerduty.com/"},
+  {"name":"Harness","description":"AI-powered CI/CD platform with intelligent deployments and rollbacks.","category":"DevOps and Infrastructure","type":"CI/CD","website":"https://harness.io/"},
+  {"name":"GitLab AI","description":"Integrated AI across GitLab for code suggestions, security scanning, and workflows.","category":"DevOps and Infrastructure","type":"DevOps Platform","website":"https://about.gitlab.com/solutions/artificial-intelligence/"},
+  {"name":"Pulumi AI","description":"Infrastructure as code platform with AI assistance for cloud resource management.","category":"DevOps and Infrastructure","type":"IaC Platform","website":"https://www.pulumi.com/ai/"},
+  {"name":"Spacelift","description":"AI-powered infrastructure automation with policy-as-code workflows.","category":"DevOps and Infrastructure","type":"IaC Platform","website":"https://spacelift.io/"},
+  {"name":"Sysdig","description":"Cloud security and observability platform with AI-driven threat detection.","category":"DevOps and Infrastructure","type":"Security + Observability","website":"https://sysdig.com/"},
+  {"name":"LambdaTest","description":"AI-powered cross-browser testing platform for web QA and compatibility checks.","category":"DevOps and Infrastructure","type":"Testing Platform","website":"https://www.lambdatest.com/"},
+  {"name":"Infracost","description":"Cloud cost estimation tool for pull requests and infrastructure definitions.","category":"DevOps and Infrastructure","type":"Cost Optimization","website":"https://www.infracost.io/"},
+  {"name":"Snyk","description":"Security platform for dependency, code, and container scanning with AI support.","category":"Security","type":"Security Scanner","website":"https://snyk.io/"},
+  {"name":"Checkmarx","description":"AI-enhanced static analysis platform for vulnerability detection.","category":"Security","type":"Security Scanner","website":"https://checkmarx.com/"},
+  {"name":"GitGuardian","description":"Monitors codebases for leaked secrets and credentials.","category":"Security","type":"Secret Detection","website":"https://www.gitguardian.com/"},
+  {"name":"Semgrep","description":"Open-source static analysis for security and quality checks.","category":"Security","type":"Security Scanner","website":"https://semgrep.dev/"},
+  {"name":"Veracode","description":"Application security platform with static and dynamic analysis.","category":"Security","type":"Security Scanner","website":"https://www.veracode.com/"},
+  {"name":"Mend","description":"Security and license compliance platform for open-source dependency management.","category":"Security","type":"Dependency Security","website":"https://www.mend.io/"},
+  {"name":"JFrog Xray","description":"Security scanning and compliance tool for DevOps and artifact pipelines.","category":"Security","type":"Dependency Security","website":"https://jfrog.com/xray/"},
+  {"name":"Bearer CLI","description":"Open-source static security analysis tool for sensitive data and compliance checks.","category":"Security","type":"Security Scanner","website":"https://github.com/Bearer/bearer"},
+  {"name":"Supabase AI","description":"AI-assisted database schema generation, query optimization, and API development.","category":"Database and API Tools","type":"AI Database Tool","website":"https://supabase.com/ai"},
+  {"name":"Hasura","description":"GraphQL API platform with AI query optimization and developer automation.","category":"Database and API Tools","type":"API Platform","website":"https://hasura.io/"},
+  {"name":"Retool AI","description":"AI-powered internal tool builder with natural-language development workflows.","category":"Database and API Tools","type":"Internal Apps Builder","website":"https://retool.com/ai"},
+  {"name":"dbForge AI Assistant","description":"AI-powered SQL generation and optimization assistant.","category":"Database and API Tools","type":"Database Assistant","website":"https://www.devart.com/dbforge/ai-assistant/"},
+  {"name":"MCP Server Finder","description":"Directory for discovering and browsing Model Context Protocol servers.","category":"MCP Directory","type":"Directory","website":"https://www.mcpserverfinder.com/servers"},
+  {"name":"PulseMCP","description":"Large, frequently updated directory of MCP servers and integrations.","category":"MCP Directory","type":"Directory","website":"https://www.pulsemcp.com/servers"},
+  {"name":"MCP.so","description":"Community platform for MCP server resources and discovery.","category":"MCP Directory","type":"Directory","website":"https://mcp.so/"},
+  {"name":"Cursor MCP Directory","description":"Curated set of MCP servers for Cursor workflows.","category":"MCP Directory","type":"Directory","website":"https://cursor.directory/mcp"},
+  {"name":"VS Code MCP Directory","description":"Official directory of MCP servers and integrations for VS Code.","category":"MCP Directory","type":"Directory","website":"https://code.visualstudio.com/mcp"},
+  {"name":"Claude MCP Servers","description":"Curated list of MCP servers for Claude-based workflows.","category":"MCP Directory","type":"Directory","website":"https://www.claudemcp.com/servers"},
+  {"name":"MCPServers.Net","description":"Comprehensive navigation and tutorial hub for MCP servers.","category":"MCP Directory","type":"Directory","website":"https://mcpservers.net/"},
+  {"name":"MCP Market","description":"Marketplace for AI-oriented tools and MCP services.","category":"MCP Directory","type":"Marketplace","website":"https://mcpmarket.com/"},
+  {"name":"AI For Developers","description":"Curated directory of AI developer tools and platform resources.","category":"Related List","type":"Directory","website":"https://aifordevelopers.org"},
+  {"name":"Awesome Vibe Coding","description":"Curated list of tools and resources for vibe coding and AI-first development workflows.","category":"Related List","type":"Directory","website":"https://github.com/ai-for-developers/awesome-vibe-coding"},
+  {"name":"Awesome AI Tools","description":"General list of AI tools across varied domains and use cases.","category":"Related List","type":"Directory","website":"https://github.com/mahseema/awesome-ai-tools"},
+  {"name":"Awesome AI Agents","description":"Curated set of AI agent tools and frameworks for automation and software engineering.","category":"Related List","type":"Directory","website":"https://github.com/aylar-ghezelbash/awesome-ai-agents"},
+  {"name":"Altern","description":"AI tool discovery platform for sorting and comparing AI products.","category":"Related List","type":"Directory","website":"https://altern.ai"},
+  {"name":"DevTools Directory","description":"Directory of trending developer tools across AI and traditional engineering workflows.","category":"Related List","type":"Directory","website":"https://devtools.directory"}
 ]
