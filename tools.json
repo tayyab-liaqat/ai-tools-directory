@@ -1,0 +1,128 @@
+[
+  {
+    "name": "GitHub Copilot",
+    "description": "AI pair programmer integrated into GitHub, VS Code, and JetBrains with code completion, chat, and agent workflows.",
+    "category": "Web AI Tool",
+    "type": "Coding Assistant",
+    "website": "https://github.com/features/copilot"
+  },
+  {
+    "name": "Claude AI",
+    "description": "Anthropic's conversational AI platform with strong reasoning and coding assistance for web-based workflows.",
+    "category": "Web AI Tool",
+    "type": "General AI Assistant",
+    "website": "https://claude.ai/"
+  },
+  {
+    "name": "ChatGPT",
+    "description": "OpenAI's AI assistant for coding help, explanations, debugging, and general software development tasks.",
+    "category": "Web AI Tool",
+    "type": "General AI Assistant",
+    "website": "https://chat.openai.com/"
+  },
+  {
+    "name": "Perplexity",
+    "description": "AI search and research assistant useful for technical research, coding questions, and up-to-date web references.",
+    "category": "Web AI Tool",
+    "type": "Research AI Assistant",
+    "website": "https://www.perplexity.ai/"
+  },
+  {
+    "name": "Gemini",
+    "description": "Google’s AI assistant for coding, research, and multimodal reasoning across web workflows.",
+    "category": "Web AI Tool",
+    "type": "General AI Assistant",
+    "website": "https://gemini.google.com/"
+  },
+  {
+    "name": "Cursor",
+    "description": "AI-first desktop code editor for coding, debugging, refactoring, and multi-file development.",
+    "category": "Desktop AI Tool",
+    "type": "AI IDE",
+    "website": "https://cursor.com/"
+  },
+  {
+    "name": "Windsurf",
+    "description": "AI-powered desktop coding environment centered on code generation and workspace-aware assistance.",
+    "category": "Desktop AI Tool",
+    "type": "AI IDE",
+    "website": "https://windsurf.com/"
+  },
+  {
+    "name": "Claude Desktop",
+    "description": "Desktop app version of Claude for coding help, analysis, and productivity workflows.",
+    "category": "Desktop AI Tool",
+    "type": "General AI Assistant",
+    "website": "https://claude.ai/desktop"
+  },
+  {
+    "name": "Ollama",
+    "description": "Run open-source large language models locally on your machine with a simple CLI.",
+    "category": "Local AI Tool",
+    "type": "Local LLM Runtime",
+    "website": "https://ollama.com/"
+  },
+  {
+    "name": "LM Studio",
+    "description": "Desktop application for downloading and running local LLMs with a GUI and local API server.",
+    "category": "Local AI Tool",
+    "type": "Local LLM Runtime",
+    "website": "https://lmstudio.ai/"
+  },
+  {
+    "name": "Jan",
+    "description": "Open-source local AI desktop app for running LLMs offline and chatting privately.",
+    "category": "Local AI Tool",
+    "type": "Local LLM Runtime",
+    "website": "https://jan.ai/"
+  },
+  {
+    "name": "GitHub Copilot for VS Code",
+    "description": "AI coding assistant embedded in VS Code for completions, chat, and inline suggestions.",
+    "category": "IDE AI Tool",
+    "type": "VS Code Extension",
+    "website": "https://github.com/features/copilot"
+  },
+  {
+    "name": "JetBrains AI",
+    "description": "Native AI assistant for JetBrains IDEs, covering code generation, explanations, and workflow help.",
+    "category": "IDE AI Tool",
+    "type": "JetBrains Plugin",
+    "website": "https://www.jetbrains.com/ai/"
+  },
+  {
+    "name": "Amazon Q Developer",
+    "description": "AI coding assistant integrated with IDEs and developer environments for code generation and review.",
+    "category": "IDE AI Tool",
+    "type": "IDE Assistant",
+    "website": "https://aws.amazon.com/q/developer/"
+  },
+  {
+    "name": "Claude Code",
+    "description": "Anthropic's terminal coding agent designed for deep project-aware code editing and debugging.",
+    "category": "Coding Agent",
+    "type": "Terminal Agent",
+    "website": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview"
+  },
+  {
+    "name": "OpenAI Codex CLI",
+    "description": "OpenAI’s terminal coding agent with sandboxed execution and repo-aware editing.",
+    "category": "Coding Agent",
+    "type": "Terminal Agent",
+    "website": "https://openai.com/blog/openai-codex/"
+  },
+  {
+    "name": "Devin AI",
+    "description": "Autonomous software engineer capable of planning, coding, and debugging across tasks.",
+    "category": "Coding Agent",
+    "type": "Autonomous Developer",
+    "website": "https://devin.ai/"
+  },
+  {
+    "name": "OpenHands",
+    "description": "Open-source AI software engineer for autonomous software development workflows.",
+    "category": "Coding Agent",
+    "type": "Autonomous Developer",
+    "website": "https://opendevin.ai/"
+  }
+]
