@@ -89,6 +89,7 @@
   {"name":"KushoAI","description":"AI-driven API testing tool for validation and workflow automation.","category":"Testing and QA","type":"API Testing","website":"https://kusho.ai/"},
   {"name":"Katalon Studio","description":"Test automation platform with AI-enabled productivity features.","category":"Testing and QA","type":"Test Automation","website":"https://katalon.com/"},
   {"name":"Testsigma","description":"AI-powered test automation with natural-language test creation.","category":"Testing and QA","type":"Test Automation","website":"https://testsigma.com/"},
+  {"name":"Agent QA","description":"Agent-driven web, Android and iOS regression testing from YAML, with CLI/MCP control and recorded evidence.","category":"Testing and QA","type":"Test Automation","website":"https://vostride.com/docs/agent-qa"},
   {"name":"Mintlify","description":"AI-powered documentation platform that auto-generates and maintains docs from code.","category":"Documentation","type":"Docs Generator","website":"https://mintlify.com/"},
   {"name":"GitBook AI","description":"AI-enhanced documentation tool with intelligent writing suggestions.","category":"Documentation","type":"Docs Generator","website":"https://gitbook.com/ai"},
   {"name":"README-AI","description":"AI tool for generating professional README files from project information.","category":"Documentation","type":"README Generator","website":"https://github.com/eli64s/readme-ai"},
